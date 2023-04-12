@@ -1,0 +1,35 @@
+.myForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .myForm label {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 1rem;
+  }
+  
+  .myForm input[type="text"],
+  .myForm input[type="email"],
+  .myForm textarea {
+    background-color: white;
+    color: red;
+    padding: 0.5rem;
+    border: 2px solid red;
+    border-radius: 5px;
+    width: 100%;
+    max-width: 400px;
+  }
+  
+  .myForm button[type="submit"] {
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 0.5rem 1rem;
+    margin-top: 1rem;
+    cursor: pointer;
+  }
+  
